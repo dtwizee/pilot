@@ -15,7 +15,12 @@ public class misc
    public static void main(String[] args) throws IOException
       {
       int x=1;
-      int y=2;      
+      int y=2;
+      //swapping
+      int temp=x;
+      x=y;
+      y=temp; 
+           
       System.out.println(x+"\n"+y);      
       }
 }
