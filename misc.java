@@ -14,13 +14,17 @@ public class misc
 {
    public static void main(String[] args) throws IOException
       {
-      int x=11;
+      int x=17;
       int y=2;
-      //swapping
-      int temp=x;
-      x=y;
-      y=temp; 
-           
-      System.out.println(x+"\n"+y);      
+      swap(x,y)    ; 
       }
+   public static void swap (int x,int y)
+   {
+   int temp=x;
+   x=y;
+   y=temp;
+   System.out.println(x+"\n"+y);  
+   }
+
+
 }
