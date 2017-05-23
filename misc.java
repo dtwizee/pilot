@@ -14,7 +14,7 @@ public class misc
 {
    public static void main(String[] args) throws IOException
       {
-      int x=29;
+      int x=76;
       int y=2;
       //swapping
       int temp=x;
